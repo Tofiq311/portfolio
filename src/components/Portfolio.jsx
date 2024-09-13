@@ -4,6 +4,7 @@ import edusite from "../assets/edusite.png"
 import hotel from "../assets/hotel-website.png"
 import laravel from "../assets/laravel-blog.png"
 import weather from "../assets/weather-app.png"
+import task from "../assets/task.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -51,6 +52,15 @@ const projects = [
       links: {
         site: "https://tofiq311.github.io/weather-app/",
         github: "https://github.com/Tofiq311/weather-app",
+      },
+    },
+    {
+      img: task,
+      title: "Project #6",
+      description: "React JS Task Application",
+      links: {
+        site: "https://task311.netlify.app/",
+        github: "https://github.com/Tofiq311/task-app",
       },
     },
   ]
