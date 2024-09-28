@@ -1,17 +1,26 @@
 import React from 'react';
+import ecommerce from "../assets/ecommerce.png"
 import admin from "../assets/admin-panel.png"
 import edusite from "../assets/edusite.png"
 import hotel from "../assets/hotel-website.png"
-import laravel from "../assets/laravel-blog.png"
 import weather from "../assets/weather-app.png"
 import task from "../assets/task.png"
 import { AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
+  {
+    img: ecommerce,
+    title: "Project #1",
+    description: "Ecommerce Using React JS and Firebase.",
+    links: {
+      site: "https://ecommerce311.netlify.app/",
+      github: "https://github.com/Tofiq311/ecommerce",
+    },
+  },
     {
       img: admin,
-      title: "Project #1",
+      title: "Project #2",
       description: "UI for frontend admin panel using React.",
       links: {
         site: "#",
@@ -20,7 +29,7 @@ const projects = [
     },
     {
       img: edusite,
-      title: "Project #2",
+      title: "Project #3",
       description: "Educational Website using React JS.",
       links: {
         site: "https://tofiq311.github.io/edusite/",
@@ -29,20 +38,11 @@ const projects = [
     },
     {
       img: hotel,
-      title: "Project #3",
+      title: "Project #4",
       description: "Hotel Details Website and Hotel Rooms Filter using React JS.",
       links: {
         site: "https://ashiktofiq.github.io/react-hotel-details-app/",
         github: "https://github.com/ashiktofiq/react-hotel-details-app",
-      },
-    },
-    {
-      img: laravel,
-      title: "Project #4",
-      description: "Blog using PHP Laravel Framework.",
-      links: {
-        site: "#",
-        github: "https://github.com/ashiktofiq/laravelBlog",
       },
     },
     {
