@@ -21,7 +21,7 @@ const projects = [
     {
       img: admin,
       title: "Project #2",
-      description: "UI for frontend admin panel using React.",
+      description: "UI for frontend admin panel using React JS.",
       links: {
         site: "#",
         github: "https://github.com/Tofiq311/admin-panel",
@@ -48,7 +48,7 @@ const projects = [
     {
       img: weather,
       title: "Project #5",
-      description: "React JS Weather Application",
+      description: "React JS Weather Application.",
       links: {
         site: "https://tofiq311.github.io/weather-app/",
         github: "https://github.com/Tofiq311/weather-app",
@@ -57,7 +57,7 @@ const projects = [
     {
       img: task,
       title: "Project #6",
-      description: "React JS Task Application",
+      description: "React JS Task Application.",
       links: {
         site: "https://task311.netlify.app/",
         github: "https://github.com/Tofiq311/task-app",
