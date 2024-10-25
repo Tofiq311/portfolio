@@ -19,7 +19,7 @@ const experiences = [
         description: 'I have 12 months of experince as a System & Web Engineer.',
       },
       {
-        company: '株式会社中家製作所',
+        company: 'I.S',
         period: '2022/4 - Present',
         description: 'I have 2 year and 3 months of experince as a Fullstack Developer.',
       },
