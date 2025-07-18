@@ -23,7 +23,7 @@ const experiences = [
 //         period: '2022/4 - Present',
 //         description: 'I have 2 year and 3 months of experince as a Fullstack Developer.',
 //       },
-// ]
+ ]
 
 
 
